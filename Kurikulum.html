@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        html {
+            font-family: comic Sans MS;
+        }
+
+        .container {
+            width: auto;
+            height: auto;
+            margin: 10px auto;
+            padding: 5px;
+            box-sizing: border-box;
+            display: grid;
+            grid-template-areas:"header1 header2";
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 100% 100%;
+        }
+
+        .right-main {
+            grid-area: header1;
+            display: flex;
+            flex-direction: column;
+            margin-right: 10px;
+        }
+
+        .left-main {
+            grid-area: header2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurikulum</title>
+</head>
+<body>
+    <div class="container">
+        <div class="right-main">
+            <h1>Implementasi<br>Kurikulum Merdeka</h1>
+            <p>Merdeka Belajar Episode 15 Kurikulum Merdeka dan Platform Merdeka Mengajar ditindak lanjuti dengan Implementasi kurikulum Merdeka sebagai bentuk fasilitasi Kemendikbudristek melalui Direktorat Jenderal Guru dan Tenaga Kependidikan yang ditujukan kepada Ibu bapak guru, para kepala sekolah, kepala madrasah, dan kepala PKBM dalam mempersiapkan keterlibatannya pada Kurikulum Merdeka pada tahun ini hingga kedepanya. Untuk lebih memahami Implementasi Kurikulum Merdeka, ada beberapa artikel sederhana yang dapat dibaca.</p>
+            <ul>
+                <li>Kurikulum Merdeka sebagai opsi pemulihan pembelajaran</li>
+                <li>Tahapan Implementasi Kurikulum Merdeka</li>
+                <li>Strategi IKM jalur mandiri</li>
+                <li>Pilihan IKM jalur mandiri</li>
+                <li>Platform Merdeka Mengajar</li>
+            </ul>
+        </div>
+        <div class="left-main">
+            <img src="D:\data backup\Made By Minalinsky\Media\Photos\Kurikulum.jpg" style="width: 100%;">
+        </div>
+    </div>
+</body>
+</html>

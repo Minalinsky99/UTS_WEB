@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        .container {
+            width: auto;
+            height: auto;
+            margin: 10px auto;
+            padding: 5px;
+            box-sizing: border-box;
+            display: grid;
+            grid-template-areas:"header header"
+                                "main1 main2";
+            grid-template-columns: 50% 50%;
+        }
+
+        header {
+            grid-area: header;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main1 {
+            grid-area: main1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: Comic Sans MS;
+        }
+
+        .container .main1 li{
+            list-style: square  ;
+        }
+
+        .main2{
+            grid-area: main2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Prodi</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <p class="univ">Universitas Maarif Haysim Latif</p>
+            <h1 class="prodi">D3 TEKNIK KOMPUTER</h1>
+        </header>
+        <div class="main1">
+            <p>Teknik Komputer dikenal juga dengan Sistem Komputer. Teknik Komputer adalah sebuah Program Studi yang mengintegrasikan Teknik Elektro dan Ilmu Komputer dalam mengembangkan sistem perangkat keras (hardware), perangkat lunak (software), dan jaringan komputer (network).</p>
+            <ul>
+                <li>Menghasilkan lulusan yang kreatif dan inovatif dengan mengikuti perkembangan teknologi.</li>
+                <li>Menghasilkan lulusan Ahli Madya Komputer yang dapat bersaing di dunia teknologi Informasi dengan gelar A.Md.Kom</li>
+                <li>Menghasilkan lulusan yang mampu membangun dan menjalin kerjasama dengan berbagai pihak yang terkait dalam bidang komputer, sistem kontrol, otomatisasi industri</li>
+                <li>Menghasilkan lulusan yang mampu memberikan manfaat dalam kegiatan yang bersentuhan dengan masyarakat</li>
+            </ul>
+        </div>
+        <div class="main2">
+            <img src="D:\data backup\Made By Minalinsky\Media\Photos\profil.PNG" style="width: 100%;">
+        </div>
+    </div>
+    
+</body>
+</html>
